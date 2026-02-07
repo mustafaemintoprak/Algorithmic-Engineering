@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+!*/
 
-# Precompiled Headers
-*.gch
-*.pch
+!*.c
+!*.cpp
+!*.py
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+!.gitattributes
+!.gitignore
+!LICENSE
+!README.md
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+!Problemsets/
+!Problemsets/**
